@@ -21,7 +21,7 @@ rf=RandomForestClassifier()
 gbm=GradientBoostingClassifier(n_estimators=101)
 
 #get data
-df=pd.read_csv("Datasets/Iris.csv")
+df=pd.read_csv("../Datasets/Iris.csv")
 # print(df)
 X=df.drop('Id', axis=1)
 X=X.drop('Species', axis=1)
